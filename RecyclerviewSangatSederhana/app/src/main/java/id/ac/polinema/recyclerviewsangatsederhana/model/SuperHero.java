@@ -1,4 +1,17 @@
 package id.ac.polinema.recyclerviewsangatsederhana.model;
 
-public class Superhero {
+public class SuperHero {
+    public String heroName;
+
+    public SuperHero(String heroName) {
+        this.heroName = heroName;
+    }
+
+    public String getHeroName() {
+        return heroName;
+    }
+
+    public void setHeroName(String heroName) {
+        this.heroName = heroName;
+    }
 }
